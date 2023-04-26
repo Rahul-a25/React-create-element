@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <title>Assignment2</title>
+</head>
+<body>
+    <div id ="root">
+
+    </div>
+    <script type="text/babel">
+       var card1 = React.createElement('div',{
+        id:'title',
+        style:{
+            boxShadow:"0px 0px 10px black",
+            width:"1000px",
+            height:"400px",
+            margin:"100px auto"
+        }
+       },React.createElement('h1',
+       {
+        id:'title',
+        style:{
+           
+            fontSize:"40px",
+           
+            padding:"10px"
+           
+        }
+       },'Learn Web Development'),React.createElement('p',{
+        id:'title',
+        style:{
+           
+            fontSize:"20px",
+           
+            padding:"10px"
+           
+        }
+       },'Welcome to the MDN learning area. This set of articles aims to guide complete beginners to web development with all that they need to start coding websites.'),React.createElement('p',{
+        id:'title',
+        style:{
+           
+            fontSize:"20px",
+            
+            padding:"10px"
+           
+        }
+       },'The aim of this area of MDN is not to take you from "beginner" to "expert" but to take you from "beginner" to "comfortable." From there, you should be able to start making your way, learning from the rest of MDN, and other intermediate to advanced resources that assume a lot of previous knowledge..'),React.createElement('p',{
+        id:'title',
+        style:{
+           
+            fontSize:"20px",
+            padding:"10px"
+           
+        }
+       },'If you are a complete beginner, web development can be challenging — we will hold your hand and provide enough detail for you to feel comfortable and learn the topics properly. You should feel at home whether you are a student learning web development (on your own or as part of a class), a teacher looking for class materials, a hobbyist, or someone who just wants to understand more about how web technologies work.'))
+        // var card2 = React.createElement('div',null,React.createElement('a',{
+        //     id:'title',
+        //     style:{
+        //         color:"blue",
+        //         borderBottom:"1px solid blue",
+                                
+        //         padding:"10px"
+        //     }
+            
+        // },'Getting Started with the web '),React.createElement('h4',null,'Provides a practical introduction to web development for complete beginers'))
+         
+        // var card3 = React.createElement('div',null,React.createElement('a',{
+        //     id:'title',
+        //     style:{
+        //         color:"blue",
+        //         borderBottom:"1px solid blue",
+                                
+        //         padding:"10px"
+        //     }
+            
+        // },'HTML--structuring the wed '),React.createElement('h4',null,'Html is the language that we use to structure the different parts of our content and define what their meaning our purpose is. this topics teaches html in detail'))
+        // var card4 = React.createElement('div',null,React.createElement('a',{
+        //     id:'title',
+        //     style:{
+        //         color:"blue",
+        //         borderBottom:"1px solid blue",
+                                
+        //         padding:"10px"
+        //     }
+            
+        // },'CSS--Styling the web '),React.createElement('h4',null,'Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. '))
+                    // var main =[card1,card2,card3,card4]
+                   
+            ReactDOM.render(card1,document.getElementById("root"))
+
+    </script>
+    
+</body>
+</html>
